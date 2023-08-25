@@ -1,5 +1,4 @@
-import logo from "../assets/logo";
-
+import logo from "../assets/logo"; 
 const blogData = {
   name: "Underreacted",
   image: logo,
@@ -22,6 +21,7 @@ const blogData = {
     {
       id: 3,
       title: "Function vs Class Components",
+      date: "January 1, 1970", // Default date value
       preview: "React, meet OOJS.",
       minutes: 47,
     },
@@ -29,3 +29,7 @@ const blogData = {
 };
 
 export default blogData;
+
+
+
+
